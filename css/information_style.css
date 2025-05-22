@@ -1,0 +1,358 @@
+
+.main-content {
+    flex: 1;
+    padding: 1.5rem 2rem;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.header h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.header-actions {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background-color: var(--accent-green);
+    color: #000;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: var(--text-light);
+}
+
+.tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.tab {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.tab.active {
+    border-bottom: 2px solid var(--accent-green);
+    font-weight: 500;
+}
+
+.tab:not(.active) {
+    color: var(--text-secondary);
+    background-color: var(--tab-inactive);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.card {
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.card-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.tool-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.tool-card {
+    background-color: #222;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s;
+}
+
+.tool-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tool-header {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tool-icon {
+    width: 36px;
+    height: 36px;
+    background-color: rgba(60, 209, 141, 0.1);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-green);
+    font-size: 1.25rem;
+}
+
+.tool-name {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.tool-info {
+    padding: 1rem;
+}
+
+.tool-description {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.tool-functions {
+    margin-bottom: 1rem;
+}
+
+.function-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.function-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.function-item {
+    font-size: 0.9rem;
+    padding: 0.35rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.function-item::before {
+    content: "•";
+    color: var(--accent-green);
+}
+
+.tool-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--border-color);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 0.85rem;
+}
+
+.tool-version {
+    color: var(--text-secondary);
+}
+
+.tool-status {
+    background-color: rgba(60, 209, 141, 0.2);
+    color: var(--accent-green);
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+}
+
+.tool-status.inactive {
+    background-color: rgba(255, 99, 71, 0.2);
+    color: tomato;
+}
+
+.tool-config {
+    margin-top: 1rem;
+}
+
+.config-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.config-code {
+    background-color: #151515;
+    border-radius: 4px;
+    padding: 0.75rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+    overflow-x: auto;
+    margin: 0;
+}
+
+.tool-actions {
+    display: flex;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--border-color);
+    gap: 0.5rem;
+}
+
+.btn-sm {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.8rem;
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+}
+
+.detailed-view {
+    margin-top: 2rem;
+}
+
+.tool-params {
+    margin-top: 1.5rem;
+}
+
+.param-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.param-table th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    background-color: #151515;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.param-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.param-table tr:last-child td {
+    border-bottom: none;
+}
+
+.param-default {
+    color: var(--text-secondary);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+}
+
+.param-required {
+    display: inline-block;
+    background-color: rgba(255, 99, 71, 0.2);
+    color: tomato;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.param-optional {
+    display: inline-block;
+    background-color: rgba(100, 100, 100, 0.2);
+    color: #aaa;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+.tool-results {
+    margin-top: 1.5rem;
+}
+
+.result-title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.result-preview {
+    background-color: #151515;
+    border-radius: 4px;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.result-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+/* Search & filter styles */
+.search-filter {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.search-bar {
+    flex: 1;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background-color: #222;
+    color: var(--text-light);
+}
+
+.filter-dropdown {
+    position: relative;
+}
+
+.filter-button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    color: var(--text-light);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
