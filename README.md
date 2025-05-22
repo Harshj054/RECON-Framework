@@ -103,4 +103,4 @@ Pull requests are welcome! If you want to add new tools or enhance the UI, feel 
 [GitHub](https://github.com/Harshj054) • [LinkedIn](https://www.linkedin.com/in/harshj054)
 
 **Aryan Raina**  
-[GitHub](https://github.com/aryanraina7) 
+[GitHub](https://github.com/aryanraina7) • [LinkedIn](https://www.linkedin.com/in/aryan-raina-5b545231b/)
