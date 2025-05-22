@@ -6,15 +6,16 @@
 
 Users can perform new recon scans, view previous results, and integrate multiple tools with ease — all through a simple and intuitive web dashboard. Whether you're a beginner in infosec or an experienced hunter, this framework helps keep your recon organized, accessible, and ready for analysis.
 
----
+
+
 
 ## 🎥 Demo Video
 
 > Watch the framework in action:
 
 
+https://github.com/user-attachments/assets/3a745b7b-1c23-4d5a-9da2-4b97c789dcba
 
----
 
 ## 🚀 Features
 
@@ -24,7 +25,7 @@ Users can perform new recon scans, view previous results, and integrate multiple
 - 💾 MySQL-backed for storing scan data and outputs
 - 📁 Easy to expand and integrate new tools
 
----
+
 
 ## 📦 Folder Structure
 
@@ -39,7 +40,7 @@ RECON-Framework/
 └── README.md
 ```
 
----
+
 
 ## ⚙️ Installation
 
@@ -70,7 +71,6 @@ RECON-Framework/
 
 5. Open [http://localhost:8080](http://localhost:8080) in your browser.
 
----
 
 ## 🧠 Usage
 
@@ -79,7 +79,7 @@ RECON-Framework/
 - The framework will run selected recon tools and save output.
 - View or revisit any scan at any time.
 
----
+
 
 ## 🛠️ Tools Integrated
 
@@ -89,18 +89,18 @@ RECON-Framework/
 - Waybackurls
 - Custom Bash Scripts
 
----
+
 
 ## 🤝 Contributing
 
 Pull requests are welcome! If you want to add new tools or enhance the UI, feel free to fork the project and send a PR.
 
----
+
 
 ## 🙋‍♂️ Author
 
 **Harsh Jain**  
-[GitHub](https://github.com/Harshj054) • [LinkedIn](https://www.linkedin.com/in/harshj054)
+[GitHub](https://github.com/Harshj054) • [LinkedIn](https://www.linkedin.com/in/harsh-jain-7648382b7/)
 
 **Aryan Raina**  
 [GitHub](https://github.com/aryanraina7) • [LinkedIn](https://www.linkedin.com/in/aryan-raina-5b545231b/)
